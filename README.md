@@ -1,5 +1,6 @@
 
 > 原文地址：[《温故而知新-AngularJS 1.x》](http://www.devtalking.com/articles/angularjs1x-guide/)
+
 # AngularJS是什么
 我们知道HTML是一种创建网页的静态标记语言，它很基础，但不失灵活，然而它自身并不提供对灵活性的具体实现，所以我们要创建具有可用性及赏心悦目的Web应用就需要使用其他语言与之结合去操控它的DOM、标签、标签属性、标签层级结构实现样式变换、动态数据变换、动态元素变换等，比如结合CSS和JavaScript语言。
 
