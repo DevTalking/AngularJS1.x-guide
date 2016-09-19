@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo for Component</title>
+    <script src="../angular-1.5.8.js"></script>
+    <script src="modules.js"></script>
+  </head>
+  <body ng-app="mainModule">
+    <div ng-controller="MyController as mc">
+      <my-component person="mc.person"></my-component>
+    </div>
+  </body>
+</html>

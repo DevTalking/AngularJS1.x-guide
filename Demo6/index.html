@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo for Value Service</title>
+    <script src="../angular-1.5.8.js"></script>
+    <script src="modules.js"></script>
+  </head>
+  <body ng-app="mainModule">
+    <div ng-controller="FirstController as first">
+      Client ID in FirstController: {{ first.clientId }}
+    </div>
+    <div ng-controller="SecondController as second">
+      Client ID in SecondController: {{ second.clientId }}
+    </div>
+    <!-- <div ng-controller="FirstController">
+      Client ID in FirstController: {{ clientId }}
+    </div>
+    <div ng-controller="SecondController">
+      Client ID in SecondController: {{ clientId }}
+    </div> -->
+  </body>
+</html>

@@ -1,0 +1,6 @@
+<hr>
+<div>
+  Name: {{$ctrl.person.name}}<br>
+  Job: <editable-field field-value="$ctrl.person.job" on-update="$ctrl.update('job', value)"></editable-field>
+  <button ng-click="$ctrl.delete()">Delete</button>
+</div>
